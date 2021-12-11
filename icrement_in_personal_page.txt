@@ -1,0 +1,29 @@
+1-scroll -> 
+2-logo
+3-home::
+	1- active btn -> contact me , animation -> come top or right
+	2- maxmise size of writing
+	3- animation -> come left 
+	4- active -> arrow of about me , delet bk red
+	5- screen -> good , may minmize size of writing
+4-about::
+	1- put my image ,animation -> come right 
+	2- min size of headedr, words animation -> come left
+	3- active btn -> contact me
+	4- social -> place, action on icons (put in div then center it) animation -> come top
+	5- active -> arrow of skills me , delet bk red
+	6-screen ->  good in part ,bad in part (place of social )
+5-Skills::
+	1-animation -> come left to ber
+	2-active bnts
+6-projects::
+	1-card -> define img ,name, dec ,link to (orang,shose)
+	2- screen -> good put (mix size of card)
+7-contect me::
+	1-search about in good form and good design (enter you massage , submit ,email) + active 
+8-copy::
+	1-size of word
+	2-bk red
+9-javaScript::
+	1-change color top btn
+	

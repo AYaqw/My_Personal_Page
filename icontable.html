@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <style>
+        .box:hover {
+            box-shadow: 0px 0px 8px #0d6efd !important;
+        }
+        
+        input:checked {
+            /* box-shadow: 0px 1px 8px #0d6efd !important;
+            color: red !important; 
+            width: 500px !important;*/
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="d-flex flex-column justify-content-center align-items-center container">
+        <div class="fs-3 fw-bold text-secondary">Choose your favorites</div>
+        <div class="boxs row gx-5 d-flex  justify-content-center align-items-center w-100 text-center">
+            <!--box_1-->
+            <div class=" col-2  box border border-3 rounded-3 p-3  position-relative text-center">
+                <div class="p-3 text-center"></div>
+                <input type="checkbox" name="" id="box1" class="position-absolute  rounded-circle" style="top: 2px;
+                    left: 2px;">
+                <label for="box1">
+                        <i class="fab fa-discord fa-3x fa-fw text-primary  text-center "></i>
+                        <h6 class="text-secondary">Discord</h6>
+                    </label>
+
+            </div>
+            <!--box_2-->
+            <div class=" col-2 box border border-3 rounded-3 p-3 position-relative text-center offset-1">
+                <div class="p-3 text-center ">
+                    <input type="checkbox" name="" id="box2" class="position-absolute  rounded-circle" style="top: 2px;
+                    left: 2px;">
+                    <label for="box2">
+                        <i class="fas fa-wave-square fa-3x fa-fw text-primary  text-center "></i>
+                        <h6 class="text-secondary">Wave</h6>
+                    </label>
+                </div>
+            </div>
+            <!--box_3-->
+            <div class=" col-2 box border border-3 rounded-3 p-3 position-relative text-center offset-1">
+                <div class="p-3 text-center">
+                    <input type="checkbox" name="" id="box3" class="position-absolute  rounded-circle" style="top: 2px;
+                    left: 2px;">
+                    <label for="box3">
+                        <i class="fab fa-sketch fa-3x fa-fw text-primary  text-center "></i>
+                        <h6 class="text-secondary">Sketch</h6>
+                    </label>
+                </div>
+            </div>
+            <!--box_4-->
+            <div class=" col-2 box border border-3 rounded-3 p-3 position-relative text-center offset-1">
+                <div class="p-3 text-center">
+                    <input type="checkbox" name="" id="box4" class="position-absolute  rounded-circle" style="top: 2px;
+                    left: 2px;">
+                    <label for="box4">
+                        <i class="fab fa-instagram fa-3x fa-fw text-primary  text-center "></i>
+                        <h6 class="text-secondary">Instagram</h6>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="boxs row gx-5">
+            <!--box_5-->
+            <div class=" col-3 box border border-3 rounded-3 p-3 position-relative text-center">
+                <div class="p-3 ">
+                    <input type="checkbox" name="" id="box5" class="position-absolute  rounded-circle" style="top: 2px;
+                left: 2px;">
+                    <label for="box5">
+                    <i class="fab fa-dribbble fa-3x fa-fw text-primary  text-center "></i>
+                    <h6 class="text-secondary">Dribbble</h6>
+                </label>
+                </div>
+            </div>
+            <!--box_6-->
+            <div class=" col-3 box border border-3 rounded-3 p-3 position-relative text-center">
+                <div class="p-3 ">
+                    <input type="checkbox" name="" id="box6" class="position-absolute  rounded-circle" style="top: 2px;
+                left: 2px;">
+                    <label for="box6">
+                    <i class="fab fa-spotify fa-3x fa-fw text-primary  text-center "></i>
+                    <h6 class="text-secondary">Spotify</h6>
+                </label>
+                </div>
+            </div>
+            <!--box_7-->
+            <div class=" col-3 box border border-3 rounded-3 p-3 position-relative text-center">
+                <div class="p-3 ">
+                    <input type="checkbox" name="" id="box7" class="position-absolute  rounded-circle" style="top: 2px;
+                left: 2px;">
+                    <label for="box7">
+                    <i class="fab fa-figma fa-3x fa-fw text-primary  text-center "></i>
+                    <h6 class="text-secondary">Figma</h6>
+                </label>
+                </div>
+            </div>
+            <!--box_8-->
+            <div class=" col-3 box border border-3 rounded-3 p-3 position-relative">
+                <div class="p-3 ">
+                    <input type="checkbox" name="" id="box8" class="position-absolute  rounded-circle" style="top: 2px;
+                left: 2px;">
+                    <label for="box8">
+                    <i class="fab fa-slack fa-3x fa-fw text-primary  text-center "></i>
+                    <h6 class="text-secondary">Slack</h6>
+                </label>
+                </div>
+            </div>
+        </div>
+        <!-- <div>
+            <i class="fab fa-discord fa-3x fa-fw text-primary border border-3 round-4 text-center "></i>
+            <i class="fas fa-wave-square fa-3x fa-fw text-primary"></i>
+            <i class="fab fa-sketch fa-3x fa-fw text-primary"></i>
+            <i class="fab fa-instagram fa-3x fa-fw text-primary"></i>
+            <i class="fab fa-dribbble fa-3x fa-fw text-primary"></i>
+            <i class="fab fa-spotify fa-3x fa-fw text-primary"></i>
+            <i class="fab fa-figma fa-3x fa-fw text-primary"></i>
+            <i class="fab fa-slack fa-3x fa-fw text-primary"></i>
+        </div> -->
+
+
+    </main>
+</body>
+
+</html>
